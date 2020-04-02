@@ -185,6 +185,7 @@ Volte para a pasta `myproject` e edite o `urls.py` principal:
 
 ```
 cd ..
+
 cat << EOF > urls.py
 from django.contrib import admin
 from django.urls import include, path
