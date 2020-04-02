@@ -5,6 +5,8 @@ Projeto feito com Django e VueJS embutido como arquivo estático após o build.
 
 Neste projeto eu uso [Django][1] e sua renderização tradicional de templates, e uso o [VueJS][2] apenas como um arquivo estático via CDN. Inclui também [axios][3] via CDN.
 
+![django-vue02.png](img/django-vue02.png)
+
 
 ## Como rodar o projeto?
 
