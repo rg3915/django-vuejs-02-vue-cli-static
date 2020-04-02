@@ -80,6 +80,8 @@ python manage.py createsuperuser --username="admin"
 
 O comando a seguir pega `env_gen.py` do gist e clona na pasta `/tmp`.
 
+[contrib gist][4]
+
 ```
 git clone https://gist.github.com/22626de522f5c045bc63acdb8fe67b24.git /tmp/contrib; if [ ! -d contrib ]; then mkdir contrib; fi; cp /tmp/contrib/env_gen.py contrib/
 # rode este comando para gerar o .env (variáveis de ambiente).
