@@ -3,7 +3,7 @@
 Projeto feito com Django e VueJS embutido como arquivo estático após o build.
 
 
-Neste projeto eu uso [Django][1] e sua renderização tradicional de templates, e uso o [VueJS][2] apenas como um arquivo estático via CDN. Inclui também [axios][3] via CDN.
+Neste projeto eu uso [Django][1] e sua renderização tradicional de templates, e uso o [VueJS][2] com todos os recursos que o [vue-cli](https://cli.vuejs.org/) pode oferecer.
 
 ![django-vue02.png](img/django-vue02.png)
 
@@ -38,6 +38,7 @@ Para gerar o build, faça:
 
 ```
 cd frontend
+npm install  # primeiro precisa instalar o vue e suas dependências.
 npm run build
 ```
 
